@@ -13,9 +13,9 @@ basic.showIcon(IconNames.Happy)
 
 //Spin Clockwise
 input.onButtonPressed(Button.A, function () {
-    robotbit.Servo(servoNumber1, 0)
+    robotbit.Servo(servoNumber1, 20)
     basic.clearScreen()
-    basic.showString('0')
+    basic.showString('20')
     basic.showIcon(IconNames.SmallSquare)
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
